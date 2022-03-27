@@ -2,7 +2,7 @@ const { ChainId, Fetcher, WETH, Route, Trade, TokenAmount, TradeType } = require
 const ethers = require('ethers');  
 require("dotenv").config();
 
-const customHttpProvider = new ethers.providers.JsonRpcProvider('https://speedy-nodes-nyc.moralis.io/e997d399defafc0668b9c1aa/eth/mainnet');
+const customHttpProvider = new ethers.providers.JsonRpcProvider(URL);
 
 const chainId = ChainId.MAINNET;
 const tokenAddress = '0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5'
